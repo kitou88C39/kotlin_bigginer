@@ -12,6 +12,6 @@ fun main(){
     println(10 % 2)
 
     //文字列結合
-    println("Hello + World")
+    println("Hello" + "World")
 
 }
