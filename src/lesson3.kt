@@ -3,7 +3,7 @@ fun main(){
     val x = 10
     val y = 1.0
     val z = "Hello"
-    println(x::class)
-    println(y::class)
-    println(z::class)
+    println("x = ${x::class}")
+    println("y = ${y::class}")
+    println("z = ${z::class}")
 }
