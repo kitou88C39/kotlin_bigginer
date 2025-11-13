@@ -1,10 +1,10 @@
 fun main(){
     //条件分岐
-    if(true){
-        println(true)
-    } else {
-        println(false)
-    }
+    // if(true){
+    //     println(true)
+    // } else {
+    //     println(false)
+    // }
 
     val num = 120
 
