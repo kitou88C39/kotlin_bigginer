@@ -13,8 +13,4 @@ fun main(){
     // !!
     val num2: Int = num!!
     println(num2 * 2)
-
-    
-
-
 }
