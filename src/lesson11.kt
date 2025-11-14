@@ -13,6 +13,13 @@ fun main(){
         }
     }
 
+    val num: Any = 50.0
+    when(num){
+        is Int -> println("Int")
+        is Double -> println("Double")
+        is String -> println("String")
+    }
+
     when str:Any = when(num){
         5 -> "num = 5"
         6, 7 -> "num = 6 or 7"
