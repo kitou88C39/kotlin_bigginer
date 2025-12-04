@@ -5,13 +5,13 @@ class ClassA {
 class classB {
     val instanceA = ClassA()
     fun methodB() {
-        println()
+        println(instanceA.propA)
     }
 }
 
 fun main(){
-    val kotlin = "smile"
-    println(classA.propA)
+    classB = classB()
+    classB.methodB()
 }
 
     
